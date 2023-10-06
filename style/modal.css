@@ -1,0 +1,57 @@
+.ModalDiv {
+  background-color: rgb(252, 253, 252);
+  display: flex;
+  padding: 32px;
+  gap: 32px;
+  overflow-x: scroll;
+  height: 480px;
+  box-shadow: 0 0 20px black;
+  border-radius: 15px;
+  margin: 0px 64px;
+  transition: 0.1s;
+  z-index: 20px;
+}
+
+#h100 {
+  height: 480px;
+}
+#h0,
+.h0 {
+  height: 0;
+  padding: 0;
+}
+
+.X {
+  position: absolute;
+  border-radius: 50%;
+  background-color: red;
+  color: aliceblue;
+  padding: 15px 20px;
+  font-size: 20px;
+  border: none;
+  z-index: 2;
+} /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background:transparent;
+  border-radius: 0 0 15px 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:transparent;
+  border-radius: 0 0 15px 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2ed708;
+}
+
+.d-none {
+  display: none;
+}

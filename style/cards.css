@@ -1,0 +1,172 @@
+.CardsSection {
+  width: 1440px;
+  margin: 0 auto;
+  background: #f6f7f9;
+  padding: 32px 64px;
+}
+
+.PopularCarBox1No {
+  background-color: #fff;
+  width: 304px;
+  height: 388px;
+  border-radius: 10px;
+  padding: 24px;
+}
+.PopularCarBox1No > div button {
+  background-color: #fff;
+}
+.PopularCarBox1Yes {
+  background-color: rgb(208, 227, 240);
+  width: 304px;
+  height: 388px;
+  border-radius: 10px;
+  padding: 24px;
+}
+.PopularCarBox1Yes > div button {
+  background-color: rgb(200, 232, 239);
+}
+.Box1Div1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Box1Div1 p {
+  color: var(--secondary-500, #1a202c);
+  /* Bold/Type@20 */
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 30px */
+  letter-spacing: -0.6px;
+}
+.Box1Div1 button {
+  border: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.box1PSport {
+  color: var(--secondary-300, #90a3bf);
+  /* Bold/Type@14 */
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 21px */
+  letter-spacing: -0.28px;
+  margin-bottom: 64px;
+}
+.CarImgDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 64px;
+}
+.box1YoqGas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.box1YoqGas p {
+  color: var(--secondary-300, #90a3bf);
+  /* Medium/Type@14 */
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+  letter-spacing: -0.28px;
+}
+
+.box1YoqGas > p {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.box1BtnMony {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.box1BtnMony p {
+  color: var(--secondary-500, #1a202c);
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.box1BtnMony p > span {
+  color: var(--secondary-300, #90a3bf);
+  font-family: Plus Jakarta Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.box1BtnMony .cardsBtn,.cardsBtn1 {
+  display: flex;
+  /* width: 116px; */
+  height: 44px;
+  padding: 0px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #3563e9;
+  border: none;
+  color: var(--primary-0, #fff);
+  text-align: center;
+  /* Semibold/Type@16 */
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+}
+
+.PopularCarBox,.RecomindationCarBox {
+  display: flex;
+  gap: 32px;
+  flex-wrap: wrap;
+}
+
+.PopularCarP1,.RecomindationCarBoxP {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+.m-top32{
+    margin-top: 32px;
+}
+.PopularCarP1 p,.RecomindationCarBoxP p{
+  color: var(--secondary-300, #90a3bf);
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.PopularCarP1 a {
+  color: var(--primary-500, #3563e9);
+  text-align: center;
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-decoration: none;
+}
+.j-contentCenter{
+    display: flex;
+    justify-content: center;
+    margin: 64px auto;
+}

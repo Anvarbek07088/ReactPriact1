@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(253, 255, 254);
+}
+
+button{
+    cursor: pointer;
+}
+button:active{
+    transform: scale(0.9);
+}
+.body{
+    width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(253, 253, 254);
+    /* opacity: 0.2; */
+}
+.body1{
+    width: 1440px;
+    margin: 0 auto;
+    background-color: rgb(253, 253, 254);
+    opacity: 0.2;
+}

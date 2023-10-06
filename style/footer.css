@@ -1,0 +1,95 @@
+.ChizPas {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(89, 88, 88);
+  margin-bottom: 36px;
+}
+
+.footer {
+  padding: 0 60px;
+}
+
+.footerT {
+  padding: 80px 0px 36px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_morentlogo p {
+  width: 292px;
+  color: rgba(19, 19, 19, 0.6);
+  /* Medium/Type@16 */
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+  margin-top: 16px;
+}
+.footer_ACS {
+  display: flex;
+  gap: 60px;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+.footerAbout {
+  display: flex;
+  width: 152px;
+  height: 188px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.footerAbout p {
+  color: var(--secondary-500, #1a202c);
+  /* Semibold/Type@20 */
+  font-family: Plus Jakarta Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+  letter-spacing: -0.4px;
+  margin-bottom: 24px;
+}
+.footerAbout ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style: none;
+}
+.footerAbout ul li:hover a {
+  color: rgb(72, 72, 253);
+  cursor: pointer;
+}
+.footerAbout ul li a {
+  color: rgba(19, 19, 19, 0.6);
+  /* Medium/Type@16 */
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+  text-decoration: none;
+}
+.footerP {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 60px;
+}
+.footerP div {
+  display: flex;
+  gap: 60px;
+}
+.footerP p {
+  color: var(--secondary-500, #1a202c);
+  text-align: right;
+  /* Semibold/Type@16 */
+  font-family: Plus Jakarta Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+  letter-spacing: -0.32px;
+}

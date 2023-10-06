@@ -1,0 +1,85 @@
+.d-flex {
+  display: flex;
+}
+
+.header {
+  width: 1440px;
+  padding: 40px;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #fff;
+  position: fixed;
+  z-index: 5;
+  margin-top: -135px;
+  position: relative;
+}
+.ModalDiv{
+  position: absolute;
+  width: 1320px;
+  z-index: 20;
+  /* position: relative; */
+}
+.headerIcon {
+  width: 236px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 64px;
+}
+
+.headerIcon button {
+  border: none;
+  background-color: #fff;
+  padding: 0;
+  border-radius: 50%;
+}
+.headerIcon button:nth-child(1) {
+  border: 0.5px solid rgb(221, 220, 220);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.formImput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 492px;
+  height: 44px;
+  border-radius: 70px;
+  border: 1px solid rgba(195, 212, 233, 0.4);
+  background: var(--primary-0, #fff);
+  padding: 0 10px;
+  margin-right: 408px;
+  margin-left: 64px;
+}
+.formImput .headerSearch {
+  border: none;
+  font-size: 20px;
+  width: 300px;
+  outline: none;
+}
+.ModalHeader{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding-top: 135px;
+}
+.YurakBtn{
+  z-index: 10;
+}
+.X1{
+  position:absolute;
+  border-radius: 50%;
+  background-color: red;
+  color: aliceblue;
+  padding: 15px 20px;
+  font-size: 20px;
+  border: none;
+  right: 0;
+  top: 0;
+}
+.d-none{
+  display: none;
+}
