@@ -17,13 +17,13 @@
     /* background-position-x: -160px; */
   }
   .ModalHeader {
-    margin-left: -10px;
+    margin-left: -30px;
   }
   .headerLogo {
     margin-right: 50px;
   }
   .ModalDiv {
-    width: 80%;
+    width: 95%;
   }
   .headerXBtn {
     display: none;
@@ -83,6 +83,111 @@
     margin: 0 auto;
     justify-content: center;
     padding-left: 20px;
+  }
+  .footerT {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .footer_ACS {
+    margin-top: 30px;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .footerP p {
+    display: none;
+  }
+  .footerAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+  .footerAbout p {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 735px) {
+  .body {
+    max-width: 735px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+    /* padding-right: 10px; */
+  }
+  header {
+    max-width: 735px;
+    padding: 32px 20px;
+  }
+  .sec1Box1 {
+    width: 350px;
+    background-size: cover;
+    background-position-x: -140px;
+  }
+  .sec1Box2 {
+    width: 350px;
+    background-size: cover;
+    background-position-x: -140px;
+  }
+  .ModalHeader {
+    margin-left: -52px;
+    width: 90%;
+  }
+  .headerLogo {
+    margin-right: 40px;
+  }
+  .ModalDiv {
+    max-width: 670px;
+  }
+  .formImput {
+    margin-right: 24px;
+    margin-left: -32px;
+  }
+  .formImput .headerSearch {
+    border: none;
+    font-size: 20px;
+    width: 300px;
+    outline: none;
+  }
+  .formImput {
+    display: flex;
+    align-items: center;
+    max-width: 320px;
+    height: 44px;
+    border-radius: 70px;
+    border: 1px solid rgba(195, 212, 233, 0.4);
+    background: var(--primary-0, #fff);
+    padding: 0 10px;
+  }
+  .Section1 {
+    max-width: 735px;
+    padding: 32px 20px;
+  }
+  .CardsSection {
+    max-width: 735px;
+    padding: 32px 30px;
+  }
+  .header {
+    max-width: 735px;
+    display: flex;
+    justify-content: space-between;
+    height: 180px;
+  }
+
+  .PopularCarBox {
+    max-width: 735px;
+    overflow-x: scroll;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .RecomindationCarBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 auto;
+    justify-content: center;
+    padding-left: 30px;
   }
   .footerT {
     display: flex;

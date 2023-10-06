@@ -28,11 +28,11 @@ const Header = (newCarData) => {
     <div className="ModalHeader">
       <div className="header d-flex">
         <div className="headerLogo">
-          <img src={headerLogo} alt="" className="headerLogo"/>
+          <img src={headerLogo} alt="" className="headerLogo" />
         </div>
         <div className="headerSearch">
           <form action="imput" className="formImput">
-            <img src={searchIcon} alt="" className="headerXBtn"/>
+            <img src={searchIcon} alt="" className="headerXBtn" />
             <input
               type="text"
               placeholder="Search something here"
@@ -47,7 +47,7 @@ const Header = (newCarData) => {
                 );
               }}
             />
-            <img src={filterIcon} alt="" className="headerXBtn"/>
+            <img src={filterIcon} alt="" className="headerXBtn" />
           </form>
         </div>
         <div className="headerIcon">
@@ -81,7 +81,7 @@ const Header = (newCarData) => {
               document.querySelector(".ModalDiv").id = "h0";
             }
           }}
-          className = "X1"
+          className="X1"
         >
           x
         </button>
